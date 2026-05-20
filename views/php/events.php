@@ -98,7 +98,7 @@ $eventos = $controller->getAllEvents();
       <input type="hidden" name="id" value="<?php echo $event['id']; ?>">
       <button type="submit" class="btn-delete" onclick="return confirm('¿Seguro que quieres eliminar este evento?');">Eliminar</button>
     </form>
-
+<!-- FIRST COMMIT GORKA -->
     <!-- Botón Editar que redirige a manageEvents.php -->
     <a href="./manageEvents.php?id=<?php echo $event['id']; ?>" class="btn-edit" style="margin-left: 10px;">Editar</a>
   <?php endif; ?>
